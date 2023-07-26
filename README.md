@@ -7,6 +7,17 @@
 
 ## Solution
 
+## Ecosystem
+![image](https://github.com/yuk6ra/shinn/assets/59524938/7ea5dd9f-df35-4be9-87d8-376be22a0d87)
+
+### Legend
+![image](https://github.com/yuk6ra/shinn/assets/59524938/507d01c5-8c8b-455a-9b0f-f81233d1f338)
+
+### Details
+
+
+### Example
+
 
 ## Technology Stack
 | Title | Description |
