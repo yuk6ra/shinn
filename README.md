@@ -63,4 +63,6 @@ Interchain NFTや顧客となるユーザのウォレットアドレスの管理
 
 
 ## Slide
-
+| Title | Note |
+| :----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|[SHINN v0](https://www.canva.com/design/DAFptydpLG8/rlL88iDgzl-KUl5CRbXYIQ/view?utm_content=DAFptydpLG8&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)| 途中ですが |
