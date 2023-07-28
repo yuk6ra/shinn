@@ -34,7 +34,7 @@
 
 ## Solution
 
-**クレデンシャル・データ特化のCosmos系パブリック・ブロックチェーン**によって、**Interchain Credential Network（ICCN）**を構築する。
+**クレデンシャル・データ特化のCosmos系パブリック・ブロックチェーン**によって、**Interchain Credential Network**（ICCN）を構築する。
 
 簡単に言えば、Interchain版の[Galxe](https://docs.galxe.com/)である。オンチェーンのクレデンシャル・データに特化したApplication-Specific Blockchainを構築し、データ自体をInterchain NFTで管理することにより、ユーザがCosmos IBCに対応するどのチェーンにもデータを自由に移動できるようにする。そして、それらのクレデンシャル・データの利活用を促進し、これまでの社会になかった企業/プロジェクト/コミュニティ/個人の連携を実現する。
 
@@ -124,6 +124,13 @@ Interchain NFTや顧客となるユーザのウォレットアドレスの管理
 
 ## Future
 ### ERC721 to ICS721
+
+[![image](https://github.com/yuk6ra/shinn/assets/59524938/ad7922e7-faea-451d-8f6b-087f812dac83)](https://www.youtube.com/watch?v=qpSU19DDgGY)
+
+
+![eth-to-cosmos](https://github.com/yuk6ra/shinn/assets/59524938/da6cb36c-d939-4b63-ab40-65f808e68071)
+
+出典: https://github.com/EmpowerPlastic/Gravity-Bridge/blob/game-of-nfts-stargaze/GAME_OF_NFTS.md
 
 
 ## Slide
