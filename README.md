@@ -1,24 +1,40 @@
 ![SHINN - Interchain Credential Network (ICCN) _share (1)](https://github.com/yuk6ra/shinn/assets/59524938/18dab4dd-76cb-4bca-9399-10f778b72c10)
 
 # SHINN
-## Summary
-
+## Overview
 ### Vision
 次世代の信用インフラストラクチャーによって
 新しい社会システムを実装する
 
 ### Mission
 世の中のあらゆるクレデンシャル・データの
-コンポーザビリティとコラボレーションをなめらかにする
+コンポーザビリティ（Composability）とコラボレーション（Collaboration）をなめらかにする
 
-### Overview
+### Problem
+既存のWeb3クレデンシャル・プラットフォームは、マルチチェーンが主流であるため相互運用性に欠けている状況にあり、新興チェーンやその上に展開するDAppsのプロジェクトにとって将来的に柔軟性がないサービス設計になっている。
+
+### Solution
+クレデンシャルデータ特化L1パブリック・ブロックチェーン 『SHINN Network』
+
+### How to develop
+- Cosmos SDKを活用したApplication-Specific Blockchainの運用
+- Interchain NFT (ICS721), Interchain Account (ICS27)によってチェーン間移動可能なクレデンシャル・データの発行プロトコルの運用
+
+### Business Models
+- クレデンシャル・データのブロックチェーン・エキスプローラ『ICCN Scan』のAPI提供（課金）
+- クレデンシャル・データ管理ツール『SHINN』の課金 （SaaS）
+- クレデンシャル・データのマーケットプレイス（Interchain NFT Marketplace）の手数料（2.5%）
+- 各プロジェクト同士のコラボレーション支援手数料
+
+## Background
+
 
 ## Problems
 
 
 ## Solution
 
-クレデンシャル・データ特化のCosmos系パブリック・ブロックチェーンによって、Interchain Credential Network（ICCN）を構築する。
+**クレデンシャル・データ特化のCosmos系パブリック・ブロックチェーン**によって、**Interchain Credential Network（ICCN）**を構築する。
 
 簡単に言えば、Interchain版の[Galxe](https://docs.galxe.com/)である。オンチェーンのクレデンシャル・データに特化したApplication-Specific Blockchainを構築し、データ自体をInterchain NFTで管理することにより、ユーザがCosmos IBCに対応するどのチェーンにもデータを自由に移動できるようにする。そして、それらのクレデンシャル・データの利活用を促進し、これまでの社会になかった企業/プロジェクト/コミュニティ/個人の連携を実現する。
 
@@ -106,8 +122,17 @@ Interchain NFTや顧客となるユーザのウォレットアドレスの管理
 ### 各プロジェクト同士のコラボレーション支援
 相性の良いプロジェクトとのコラボレーションを促進する機会を提供します。DAppsのトランザクションやウォレットのオンチェーン分析による自動レコメンド等も構想中。
 
+## Future
+### ERC721 to ICS721
+
 
 ## Slide
 | Title | Note |
 | :----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|[SHINN v0](https://www.canva.com/design/DAFptydpLG8/rlL88iDgzl-KUl5CRbXYIQ/view?utm_content=DAFptydpLG8&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)| 途中ですが |
+|[SHINN v0](https://www.canva.com/design/DAFptydpLG8/rlL88iDgzl-KUl5CRbXYIQ/view?utm_content=DAFptydpLG8&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)| Draft  |
+
+
+## References
+- Web3 Credentials – All You Need To Know. 2023. https://thehyperstack.com/blog/web3-credentials-all-you-need-to-know/
+- Interchain NFT: a protocol for bridging assets between chains. The Interchain Foundation. 2023. https://medium.com/the-interchain-foundation/interchain-nft-a-protocol-for-bridging-assets-between-chains-9473cd47cba7
+- Gjermund Garaba, kwarantyna. NFTokenizer. 2023. https://dorahacks.io/buidl/6484
