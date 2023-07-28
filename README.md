@@ -37,7 +37,20 @@
 ![image](https://github.com/yuk6ra/shinn/assets/59524938/507d01c5-8c8b-455a-9b0f-f81233d1f338)
 
 ### Details
+#### 前提
+`Chain_A`には、`DApps_A`や`DApps_B`がある。とあるユーザは`EOA_A`を持ちトランザクションを実行する。
 
+`Chain_B`は、SHINNが提供するブロックチェーンであり、`Interchain NFT Contract`や`Interchain Accounts`がデプロイされている。また、`Interchain NFT Marketplace`もデプロイされている。`Interchain NFT`は、Off-Chain上の`SHINN Frontend`を通して簡単に各プロジェクトが発行できるようになっている。
+
+`Chain_C`には、`DApps_A`、`EOA_A`や`EOA_B`がある。このとき、`EOA_A`の所有者と`EOA_B`の所有者は同一人物である。`EOA_B`で`Chain_A`の`DApps_A`を利用したことがある。
+
+#### フロー
+1. `Chain_A`の`DApps_A`はクレデンシャル・データを作成するために、`SHINN Services`を利用して、`Chain_B`に`Interchain NFT Contract`をデプロイする。
+2. とあるユーザが持つ`EOA_A`は、今回デプロイされたクレデンシャル・データを発行する権利を持っているので、決定論的に生成された`ICA_A`（Interchain Account）を通して`ICS721_A`（Interchain NFT）をそのウォレットに発行する。
+3. 同時期に`Chain_A`の`DApps_B`は独自のキャンペーンをしていて、`ICS721_A`を持っているユーザにエアドロップを実施していた。
+4. しかし、そのエアドロップも興味はなく、`ICS721_A`を持っているメリットも他にないため、`Interchain NFT Marketplace`でリストした。
+5. とあるユーザが持つ`EOA_B`も`Interchain NFT Contract`から`ICS721_B`というNFTを`ICA_B`に発行した。
+6. `ICS721_B`は今後`Chain_C`に`DApps_A`が展開される可能性があり、`EOA_A`で保有しているとインセンティブがあるかもしれない。`EOA_B`から`ICA_B`にトランザクションを送り、`ICS721_B`を`Chain_C`の`EOA_A`に移動させた。
 
 ### Example
 Interchain NFTがどのように利用され、Interchain NFT Marketplaceがどのように機能するのかの例を示す。
