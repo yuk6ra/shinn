@@ -47,7 +47,7 @@
 ユーザが発行するクレデンシャル・データは、将来的にスケーラビリティがある形で提供し、ユーザが自己管理できることが理想である。Interchain NFTを利用することで、Cosmos IBCに対応するどのチェーンにもデータを移行し、さらにオンチェーンレベルで通信することを可能にする。
 
 ## Ecosystem
-![image](https://github.com/yuk6ra/shinn/assets/59524938/7ea5dd9f-df35-4be9-87d8-376be22a0d87)
+![image](https://github.com/yuk6ra/shinn/assets/59524938/34857ffe-aad2-42cf-a3a2-29dc469fb2dc)
 
 ### Legend
 ![image](https://github.com/yuk6ra/shinn/assets/59524938/507d01c5-8c8b-455a-9b0f-f81233d1f338)
