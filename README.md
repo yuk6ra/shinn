@@ -15,7 +15,20 @@
 
 ## Problems
 
+
 ## Solution
+
+クレデンシャル・データ特化のCosmos系パブリック・ブロックチェーンによって、Interchain Credential Network（ICCN）を構築する。
+
+簡単に言えば、Interchain版の[Galxe](https://docs.galxe.com/)である。オンチェーンのクレデンシャル・データに特化したApplication-Specific Blockchainを構築し、データ自体をInterchain NFTで管理することにより、ユーザがCosmos IBCに対応するどのチェーンにもデータを自由に移動できるようにする。そして、それらのクレデンシャル・データの利活用を促進し、これまでの社会になかった企業/プロジェクト/コミュニティ/個人の連携を実現する。
+
+![Web3 Credential Data Dilemma](https://github.com/yuk6ra/shinn/assets/59524938/7471da7c-0c77-441e-8c01-9998a5994f5f)
+
+### Collaboration
+中央集権的にWeb3プロジェクトの運営者やそれらのユーザが集まるエコシステムをApplication-Specific Blockchainによって構築し、それぞれがWeb3クレデンシャル・データに基づいて、サービス連携を実施しやすくする。
+
+### Composability
+ユーザが発行するクレデンシャル・データは、将来的にスケーラビリティがある形で提供し、ユーザが自己管理できることが理想である。Interchain NFTを利用することで、Cosmos IBCに対応するどのチェーンにもデータを移行し、さらにオンチェーンレベルで通信することを可能にする。
 
 ## Ecosystem
 ![image](https://github.com/yuk6ra/shinn/assets/59524938/7ea5dd9f-df35-4be9-87d8-376be22a0d87)
@@ -27,7 +40,26 @@
 
 
 ### Example
+Interchain NFTがどのように利用され、Interchain NFT Marketplaceがどのように機能するのかの例を示す。
 
+![image](https://github.com/yuk6ra/shinn/assets/59524938/0d6a5b91-6dfd-401d-b4b4-a0b7bc6f450b)
+
+
+#### 前提
+`Chain_A`は、「ポケモンチェーン」というブロックチェーンである。その上には「ポケモンカード」のDAppsがある。
+
+`Chain_B`は、SHINNが提供するブロックチェーンであり、それぞれのチェーンからデプロイされた`Interchain NFT`のコントラクトがあり、それらを売買する `Interchain NFT Marketplace`がある。
+
+`Chain_C`は、「週刊少年ジャンプチェーン」というブロックチェーンである。その上には「ワンピースカード」のDAppsがある。
+
+#### フロー
+1. `Chain_A`の`ポケモンカード`DAppsと`Chain_C`の`ワンピースカード`がコラボレーションし、キャンペーンを実施することになった。
+2. `Chain_A`の`ポケモンカード`DAppsは、元々`Contract_X`と`Contract_Y`と`Contract_Z`というクレデンシャル・データを発行するコントラクトを持っていた。
+3. 今回のコラボレーションのキャンペーンに参加して、新しいNFT（ICS721）を発行するには、`ICS721_α`/`ICS721_β`/`ICS721_γ`の3つを入手する必要がある。
+4. しかし、とあるユーザは`ICS721_γ`だけ持っていなかったので、`マーケットプレイス`で購入した。条件としては、最初にミントしたかどうかというクレデンシャル・データは必要がなく、NFTのみが必要であった。
+5. 3つのNFTを集めたユーザは、`Contract_A`によって`ICS721_Δ`を発行することができた。これはクレデンシャル・データではなく、記念的なNFTである。
+6. 受け取った記念NFTは、個数が制限されているため、`マーケットプレイス`で高額で売買されることもできる。
+7. `Chain_A`に移動したとき、その記念NFTは「リザードン」のポケモンカードとしてリビールされ、`Chain_C`に移動したとき、その記念NFTは「シャンクス」のワンピースカードとしてリビールされた。
 
 ## Technology Stack
 | Title | Description |
