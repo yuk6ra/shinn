@@ -43,7 +43,7 @@
 
 簡単に言えば、Interchain版の[Galxe](https://docs.galxe.com/)である。オンチェーンのクレデンシャル・データに特化したApplication-Specific Blockchainを構築し、データ自体をInterchain NFTで管理することにより、ユーザがCosmos IBCに対応するどのチェーンにもデータを自由に移動できるようにする。そして、それらのクレデンシャル・データの利活用を促進し、これまでの社会になかった企業/プロジェクト/コミュニティ/個人の連携を実現する。
 
-![Soliution](https://github.com/yuk6ra/shinn/assets/59524938/12146c77-7b30-4499-b86c-808db2f40597)
+![Solution](https://github.com/yuk6ra/shinn/assets/59524938/c3473015-394f-4a96-ac91-f02143b4698f)
 
 ### Composability
 中央集権的にWeb3プロジェクトの運営者やそれらのユーザが集まるエコシステムをApplication-Specific Blockchainによって構築し、それぞれがWeb3クレデンシャル・データに基づいて、サービス連携を実施しやすくする。
