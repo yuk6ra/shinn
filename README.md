@@ -3,15 +3,13 @@
 # SHINN
 ## Overview
 ### Vision
-次世代の信用インフラストラクチャーによって
-新しい社会システムを実装する
+次世代の信用インフラストラクチャーによって新しい社会システムを実装する
 
 ### Mission
-世の中のあらゆるクレデンシャル・データの
-コンポーザビリティ（Composability）とコラボレーション（Collaboration）をなめらかにする
+世の中のあらゆるクレデンシャル・データのコンポーザビリティ（Composability）とスケーラビリティ（Scalability）をなめらかにする
 
 ### Problem
-既存のWeb3クレデンシャル・プラットフォームは、マルチチェーンが主流であるため相互運用性に欠けている状況にあり、新興チェーンやその上に展開するDAppsのプロジェクトにとって将来的に柔軟性がないサービス設計になっている。
+既存のオンチェーン・クレデンシャル・プラットフォームは、マルチチェーンが主流であるため相互運用性に欠けている状況にあり、新興チェーンやその上に展開するDAppsのプロジェクトにとって将来的に柔軟性がないサービス設計になっている。
 
 ### Solution
 クレデンシャルデータ特化L1パブリック・ブロックチェーン 『SHINN Network』
@@ -27,24 +25,38 @@
 - 各プロジェクト同士のコラボレーション支援手数料
 
 ## Background
+企業にブロックチェーン・アプリケーションをDBの機能の一部として開発依頼されたときに、チェーン選定が必ず議論になる。その結果、現状どこかのチェーンに依存する提案になる。まずエコシステムが既に発展しているチェーン上にDAppsとして展開し、ユーザを集めることが１つの選択肢になる。しかし、発展したときにDAppsからチェーンに展開(dydx方式)、または別チェーンにDappsを展開する際は、既存のオンチェーン・クレデンシャル・データは扱いづらい。データの取得手段と真贋性はAPIなどに依存している。オンチェーンのデータ（NFT）も単一のブロックチェーンに縛られてしまう現状がある。現在、オンチェーンのクレデンシャル・データはコンポーザビリティがあるとは言えない。
+
+![image](https://github.com/yuk6ra/shinn/assets/59524938/6b642049-816e-4f85-998c-1536302500c4)
 
 
 ## Problems
+特定のブロックチェーン上のDApps間でコンポーザビリティは発揮されるが、クレデンシャル・データは単一のチェーンに依存してしまうため、将来を見据えた拡張性がない。そして、ユーザのアイデンティティを示すデータはチェーン間で自由に移動することができない。つまり、現在のオンチェーン・クレデンシャル・データのプラットフォームは『スケーラビリティがない』という課題がある。
 
+![クレデンシャルデータにおける上位のコンポーザビリティ](https://github.com/yuk6ra/shinn/assets/59524938/469b3057-10c6-4740-aab1-3b33424a000a)
 
 ## Solution
 
 **クレデンシャル・データ特化のCosmos系パブリック・ブロックチェーン**によって、**Interchain Credential Network**（ICCN）を構築する。
 
+![On-Chain Credential Data Dilemma](https://github.com/yuk6ra/shinn/assets/59524938/e0b07a4a-4231-4902-b1e0-5626f014f02b)
+
 簡単に言えば、Interchain版の[Galxe](https://docs.galxe.com/)である。オンチェーンのクレデンシャル・データに特化したApplication-Specific Blockchainを構築し、データ自体をInterchain NFTで管理することにより、ユーザがCosmos IBCに対応するどのチェーンにもデータを自由に移動できるようにする。そして、それらのクレデンシャル・データの利活用を促進し、これまでの社会になかった企業/プロジェクト/コミュニティ/個人の連携を実現する。
 
-![Web3 Credential Data Dilemma](https://github.com/yuk6ra/shinn/assets/59524938/7471da7c-0c77-441e-8c01-9998a5994f5f)
-
-### Collaboration
-中央集権的にWeb3プロジェクトの運営者やそれらのユーザが集まるエコシステムをApplication-Specific Blockchainによって構築し、それぞれがWeb3クレデンシャル・データに基づいて、サービス連携を実施しやすくする。
+![Soliution](https://github.com/yuk6ra/shinn/assets/59524938/12146c77-7b30-4499-b86c-808db2f40597)
 
 ### Composability
+中央集権的にWeb3プロジェクトの運営者やそれらのユーザが集まるエコシステムをApplication-Specific Blockchainによって構築し、それぞれがWeb3クレデンシャル・データに基づいて、サービス連携を実施しやすくする。
+
+### Scalability
 ユーザが発行するクレデンシャル・データは、将来的にスケーラビリティがある形で提供し、ユーザが自己管理できることが理想である。Interchain NFTを利用することで、Cosmos IBCに対応するどのチェーンにもデータを移行し、さらにオンチェーンレベルで通信することを可能にする。
+
+## Value Proposition
+### Web3 Projects
+新興チェーンやDApps、Web3コミュニティなどのプロジェクト運営者は、柔軟性のあるクレデンシャル・データを簡単に発行できる。シームレスなロイヤリティ・プログラムとユーザとの新しいチャネル、コラボレーションの機会を提供する。
+
+### Users
+ユーザは自分の行動や履歴データを完全にコントロールできる。新しいインセンティブ機会と行動・履歴データの自律性を提供し、１つのブロックチェーンに縛られることなく資格証明などのトークンを自由に移動できるような選択肢を提供する。
 
 ## Ecosystem
 ![image](https://github.com/yuk6ra/shinn/assets/59524938/34857ffe-aad2-42cf-a3a2-29dc469fb2dc)
@@ -126,12 +138,23 @@ Interchain NFTや顧客となるユーザのウォレットアドレスの管理
 ### ERC721 to ICS721
 
 [![image](https://github.com/yuk6ra/shinn/assets/59524938/ad7922e7-faea-451d-8f6b-087f812dac83)](https://www.youtube.com/watch?v=qpSU19DDgGY)
-
+出典：https://www.youtube.com/watch?v=qpSU19DDgGY
 
 ![eth-to-cosmos](https://github.com/yuk6ra/shinn/assets/59524938/da6cb36c-d939-4b63-ab40-65f808e68071)
 
 出典: https://github.com/EmpowerPlastic/Gravity-Bridge/blob/game-of-nfts-stargaze/GAME_OF_NFTS.md
 
+## Discussion
+- Interchain NFTのユースケースは？どのような場面で利用できるのだろうか？
+- Chain AとChain Bに存在するInterchain NFTはNon-FungibleなTokenなのだろうか？
+- クレデンシャル・データのAPIを活用したデータ移行の真贋性はどこまで担保されるのだろうか？
+- オンチェーンの信用データは既存の社会でどう役立つのだろうか？どう結びつくのか？
+- クレデンシャル・データの存在により、取引にポジティブな影響はあるのだろうか？
+- チェーン間の通信速度はアプリケーションのUI/UXにどのように影響を与えるのか？
+- IBCで通信可能なデータをChain AからChain Bに移行するモチベーションはどこだろうか？
+- クレデンシャル・データ利用頻度の観点からのInterchain NFT化は必要か？
+- Specific-chainまたはDappsで展開するそれぞれのメリデメはなんだろうか？
+- UptickとGravityBridgeによるERC-721 to ICS-721の違いや機能はどうなっているのか？
 
 ## Slide
 | Title | Note |
