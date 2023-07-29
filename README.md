@@ -166,3 +166,4 @@ Interchain NFTや顧客となるユーザのウォレットアドレスの管理
 - Web3 Credentials – All You Need To Know. 2023. https://thehyperstack.com/blog/web3-credentials-all-you-need-to-know/
 - Interchain NFT: a protocol for bridging assets between chains. The Interchain Foundation. 2023. https://medium.com/the-interchain-foundation/interchain-nft-a-protocol-for-bridging-assets-between-chains-9473cd47cba7
 - Gjermund Garaba, kwarantyna. NFTokenizer. 2023. https://dorahacks.io/buidl/6484
+
