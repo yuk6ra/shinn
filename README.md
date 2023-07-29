@@ -46,7 +46,7 @@
 ![Solution](https://github.com/yuk6ra/shinn/assets/59524938/c3473015-394f-4a96-ac91-f02143b4698f)
 
 ### Composability
-中央集権的にWeb3プロジェクトの運営者やそれらのユーザが集まるエコシステムをApplication-Specific Blockchainによって構築し、それぞれがWeb3クレデンシャル・データに基づいて、サービス連携を実施しやすくする。
+自然発生的にWeb3プロジェクトの運営者やそれらのユーザが集まるエコシステムをApplication-Specific Blockchainによって構築し、それぞれがWeb3クレデンシャル・データに基づいて、サービス連携を実施しやすくする。
 
 ### Scalability
 ユーザが発行するクレデンシャル・データは、将来的にスケーラビリティがある形で提供し、ユーザが自己管理できることが理想である。Interchain NFTを利用することで、Cosmos IBCに対応するどのチェーンにもデータを移行し、さらにオンチェーンレベルで通信することを可能にする。
